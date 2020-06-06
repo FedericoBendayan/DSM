@@ -1,11 +1,45 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text } from 'native-base';
+import RoutesComponent from './src/components/RoutesComponent';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    // <Container>
+    //   <Header>
+    //     <Left>
+    //       <Button transparent>
+    //         <Icon name='menu' />
+    //       </Button>
+    //     </Left>
+    //     <Body>
+    //       <Title>Header</Title>
+
+    //     </Body>
+    //     <Right />
+    //   </Header>
+    //   <Content>
+    //     <Text>
+    //       This is Content Section
+    //       </Text>
+    //     <Container>
+    //       <RoutesComponent />
+    //     </Container>
+    //   </Content>
+    //   <Footer>
+    //     <FooterTab>
+    //       <Button full>
+    //         <Text>Footer</Text>
+    //       </Button>
+    //     </FooterTab>
+    //   </Footer>
+    // </Container>
+
+
+    <Container>
+      <RoutesComponent />
+    </Container>
+
   );
 }
 
