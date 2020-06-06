@@ -31,13 +31,13 @@ development.</p>
 <li>:x:Real IOS device (Comming soon...)</li>
 </ul>
 <br/>
-<strong>Sample picture:</strong>
-<img src="images/home1.jpg" width=300 alt="Demo main screen" title="first version main screen">
-<img src="images/menu.jpg" width=300 alt="Demo main screen" title="first version main screen">
-<img src="images/fav1.jpg" width=300 alt="Demo main screen" title="first version main screen">
-<img src="images/friends.jpg" width=300 alt="Demo main screen" title="first version main screen">
-<img src="images/frineds1.jpg" width=300 alt="Demo main screen" title="first version main screen">
-<img src="images/friend2.jpg.jpg" width=300 alt="Demo main screen" title="first version main screen">
+<strong>Sample images:</strong>
+<img src="images/home1.jpg" width=300 alt="home" title="home">
+<img src="images/menu.jpg" width=300 alt="menu" title="menu">
+<img src="images/fav1.jpg" width=300 alt="favorites" title="favorites">
+<img src="images/friends.jpg" width=300 alt="friends list" title="friends list">
+<img src="images/frineds1.jpg" width=300 alt="frined detail top" title="frined detail top">
+<img src="images/friend2.jpg.jpg" width=300 alt="frined detail bottom" title="frined detail bottom">
 <br/>
 
 <strong>available Features:</strong>
