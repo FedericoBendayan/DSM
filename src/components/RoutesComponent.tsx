@@ -1,9 +1,8 @@
 import React from 'react'
-import { Router, Scene, Drawer, Overlay, Modal, Lightbox, Stack, Tabs, Reducer } from 'react-native-router-flux'
+import { Router, Scene, Drawer, Overlay, Modal, Lightbox, Stack } from 'react-native-router-flux'
 import HomePage from '../pages/home/HomePage'
 import FavoritesLocationsPage from '../pages/favorites-locations/FavoritesLocationsPage'
 import FriendsPage from '../pages/friends/FriendsPage'
-// import MyLocationsPage from '../pages/my-locations/MyLocationsPage'
 import { StackViewStyleInterpolator } from 'react-navigation-stack';
 import DrawerContentComponent from './DrawerContentComponent'
 import { Platform } from 'react-native'

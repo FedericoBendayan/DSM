@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Text, Header, Left, Icon, Title, Body, Right } from "native-base";
+import { Button, Header, Left, Icon, Title, Body, Right } from "native-base";
 import { Actions } from 'react-native-router-flux';
 import appStyles from '../styles/AppStyles';
 

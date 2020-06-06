@@ -1,3 +1,7 @@
+//Disclaimer: i was unable to integrate react-native-maps
+// to the project, so this feature is unavailable at the moment
+//but this should be a re-usable component across the app.
+
 // import React from 'react';
 // import { View, StyleSheet } from 'react-native';
 // import MapView from 'react-native-maps';
@@ -52,3 +56,4 @@
 // );
 
 // export default UserMapComponent;
+

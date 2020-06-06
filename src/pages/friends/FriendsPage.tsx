@@ -1,7 +1,7 @@
 import React from 'react'
-import { TouchableOpacity, Text, TouchableOpacityBase, ActivityIndicator, SafeAreaView, FlatList, Image } from 'react-native';
+import { TouchableOpacity, Text, FlatList, Image } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import { Container, Header, Left, Button, Icon, Title, Body, Right, Content, Footer, FooterTab, Spinner, List, ListItem, View } from 'native-base';
+import { Container, Content, Spinner, View } from 'native-base';
 import FooterComponent from '../../components/FooterComponent';
 import HeaderComponent from '../../components/HeaderComponent';
 import UserService from '../../services/UserService';
@@ -49,17 +49,6 @@ class FriendsPage extends React.Component {
     else {
       {
         if (this.state.users != null) {
-          // content = <SafeAreaView style={styles.container}>
-          //   <List
-          //     data={this.state.users}
-          //     renderItem={({ item }) => {
-          //       return (
-          //     <ListItem>
-          //       <Text>{item.name.first}}</Text>
-          //     </ListItem> )}}
-          //     // keyExtractor={item => item.id.value}
-          //   />
-          // </SafeAreaView>;
           content = <View>
             <FlatList data={this.state.users}
               renderItem={({ item }) => {
@@ -83,8 +72,6 @@ class FriendsPage extends React.Component {
               keyExtractor={item => item.id.value}
             />
           </View>;
-
-
         }
 
       }
@@ -103,17 +90,10 @@ class FriendsPage extends React.Component {
 
 const styles = {
   itemContainer: {
-    // flex: 1,
-    // backgroundColor: 'transparent',
-    // justifyContent: 'center',
-    // alignItems: 'center',
     flexDirection: 'row',
-    // marginBottom: 30,
     padding: 10,
     alignItems: 'center',
     marginBottom: 1
-
-
   },
   itemTitle: {
     fontSize: 20,

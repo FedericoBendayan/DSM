@@ -1,3 +1,6 @@
+//Disclaimer: i was unable to integrate react-native-maps
+// to the project, so this feature is unavailable at the moment
+
 // import React, { Component } from 'react';
 // import { StyleSheet, Text, View, PermissionsAndroid, TouchableOpacity, Alert } from 'react-native';
 // import Geolocation from 'react-native-geolocation-service';
