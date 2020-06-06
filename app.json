@@ -1,0 +1,17 @@
+{
+  "name": "DSM",
+  "displayName": "DSM",
+  "expo": {
+    "name": "DSM",
+    "slug": "DSM",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
