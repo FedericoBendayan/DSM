@@ -37,7 +37,7 @@ development.</p>
 <img src="images/fav1.jpg" width=300 alt="favorites" title="favorites">
 <img src="images/friends.jpg" width=300 alt="friends list" title="friends list">
 <img src="images/frineds1.jpg" width=300 alt="frined detail top" title="frined detail top">
-<img src="images/friend2.jpg.jpg" width=300 alt="frined detail bottom" title="frined detail bottom">
+<img src="images/friend2.jpg" width=300 alt="frined detail bottom" title="frined detail bottom">
 <br/>
 
 <strong>available Features:</strong>
